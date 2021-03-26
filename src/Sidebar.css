@@ -1,0 +1,30 @@
+.sidebar{
+    height: 100vh;
+    max-width: 300px;
+    min-width: 100px;
+    background-color: #822659;
+}
+.sidebar_header{
+    display: flex;
+    align-items: center;
+    background-color: #822659;
+    border: 1px solid gray;
+    max-width: 300px;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+}
+.sidebar_header .MuiSvgIcon-root{
+    color: black !important;
+    background-color: white;
+    border-radius: 60px;
+    padding: 5px;
+    font-size: 20px;
+}
+.sidebar_header h3{
+    font-weight: 900;
+    font-size: 20px;
+}
+.sidebar_body{
+    margin-top: 40px !important;
+}
