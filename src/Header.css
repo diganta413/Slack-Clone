@@ -6,6 +6,7 @@
     width: 100%;
     padding: 5px;
     border: 1px solid gray;
+    overflow-y: none;
 }
 .header_middle{
     display: flex;

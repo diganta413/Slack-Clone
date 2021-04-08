@@ -1,0 +1,10 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login img{
+    height: 100px;
+    object-fit: contain;
+}

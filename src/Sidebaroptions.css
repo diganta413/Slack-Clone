@@ -13,3 +13,22 @@
     cursor: pointer;
     transition: background-color 150ms ease-in;
 }
+.sidebaroptions_channel{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    padding-left: 20px !important;
+}
+.sidebaroptions_channel:hover{
+    background-color: #b34180;
+    cursor: pointer;
+    transition: background-color 150ms ease-in;
+}
+.sidebaroptions_channel span{
+    margin-right: 10px !important;
+}
