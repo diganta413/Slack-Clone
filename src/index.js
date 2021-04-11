@@ -1,13 +1,18 @@
-import React from 'react';
+import React,{createContext,useContext,useReducer} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import {DataLayercontext} from "./Datalayer";
+import initialState,{reducer} from "./Reducer";
+
+
+
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+        (<DataLayercontext initialState={initialState} reducer={reducer}>
+            <App />
+        </DataLayercontext>),
+      document.getElementById('root')
 );
 

@@ -18,7 +18,7 @@
     padding: 5%;
 }
 .container button{
-    background-color: #79d70f;
+    background-color: green;
     padding: 2%;
     border-radius: 60px;
     outline: none;
@@ -36,6 +36,6 @@
 }
 .container button:hover{
     cursor: pointer;
-    background-color: chartreuse;
-    transition: background-color 250ms ease-in;
+    opacity: 0.9;
+    transition: opacity 250ms ease-in;
 }

@@ -1,13 +1,15 @@
-import React,{useState,useEffect} from "react";
+import React,{useState,useEffect,createContext,useReducer,useContext} from "react";
 import './App.css';
 import Header from "./Header";
 import Sidebar from "./Sidebar";
 import Chats from "./Chats";
 import {BrowserRouter as Router,Route,Switch,Link } from "react-router-dom";
 import Login from "./Login";
+import {DataLayer} from "./Datalayer"; 
 
 function App() {
-  const [user,setuser] = useState(null);
+
+  const [{user},dispatch] = DataLayer();
 
   return (
     <Router>
@@ -33,6 +35,8 @@ function App() {
     </div>
       
     </Router>
+    
+    
     
   );
 }
