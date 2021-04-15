@@ -6,7 +6,7 @@ function Message({message}) {
         <div className="message">
             <img src={message.userimg}></img>
             <div className="message_body">
-                <h3>{message.user}  <span>{new Date((message.time).toDate()).toDateString()}</span></h3> 
+                <h3>{message.user}  <span>{new Date((message.time)?.toDate()).toDateString()}</span></h3> 
                 <p>{message.message}</p>
             </div>
         </div>

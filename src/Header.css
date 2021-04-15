@@ -33,7 +33,7 @@
     color: white;
     cursor: pointer;
 }
-input:hover{
+.header_middle input:hover{
     background-color: #8f4068;
 }
 .MuiSvgIcon-root{
@@ -43,4 +43,13 @@ input:hover{
 .avatar{
     margin-right: 30px !important;
     border-radius: 6px !important;
+}
+.avatar span{
+    position: absolute;
+    background-color: #79d70f;
+    top: 37px;
+    height: 13px;
+    right: 45px;
+    width: 13px;
+    border-radius: 60px;
 }

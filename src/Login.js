@@ -1,4 +1,4 @@
-import React,{useContext} from 'react'
+import React,{useContext, useEffect} from 'react'
 import "./Login.css"
 import {auth,provider} from "./firebase";
 import {DataLayer} from "./Datalayer";
@@ -7,13 +7,14 @@ function Login() {
 
     const [state,dispatch] = DataLayer();
 
-    const log = () => {
-        auth.signInWithPopup(provider)
+    
+
+    const log = async () => {
+        await auth.signInWithPopup(provider)
         .then((result) => dispatch({type: "SET_USER",user: result}))
         .catch((err) => console.log(err));
     }
 
-    console.log(state.user);
 
     return (
         <div className="login">

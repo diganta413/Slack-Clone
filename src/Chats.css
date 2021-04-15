@@ -33,8 +33,45 @@ span{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+}
+.chat_body .messages{
     overflow-y: overlay;
 }
-.chat_body::-webkit-scrollbar{
+.chat_body .messages::-webkit-scrollbar{
     display: none;
+}
+.chat_body .input{
+    position: fixed;
+    bottom: 0;
+    width: 80vw;
+    background-color: #a2b29f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.input .text{
+    flex: 0.9;
+    color: white;
+    margin-left: 10px;
+}
+.input .button{
+    flex: 0.1;
+    background-color: #0061a8;
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    opacity: 0.8;
+    color: white;
+    outline: none;
+}
+.input .button:hover{
+    opacity: 1;
+    transition: opacity 250ms ease-in;
 }
