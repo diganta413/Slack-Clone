@@ -31,7 +31,7 @@ function Sidebar() {
     return (
         <div className="sidebar"> 
             <div className="sidebar_header">
-                <h3>Brotherhood</h3>
+                <h3>Programming</h3>
                 <CreateIcon/>
             </div>
             <div className="sidebar_body">

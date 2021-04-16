@@ -28,4 +28,8 @@
 }
 .sidebar_body{
     margin-top: 40px !important;
+    overflow-y: overlay;
+}
+.sidebar_body::-webkit-scrollbar{
+    display: none;
 }

@@ -18,9 +18,11 @@
     align-items: center;
 }
 .message_body h3{
-    font-size: 15px;
-    font-weight: bolder;
+    font-size: 1rem;
+    font-weight: bold;
     font-family: 'RocknRoll One', sans-serif;
+    margin-left: 3px;
+    margin-right: auto;
 }
 .message_body p{
     font-size: 17px;

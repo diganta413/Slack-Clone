@@ -37,6 +37,7 @@ span{
     margin-top: auto;
 }
 .chat_body .messages{
+    margin-bottom: 15%;
     overflow-y: overlay;
 }
 .chat_body .messages::-webkit-scrollbar{
@@ -51,7 +52,7 @@ span{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    margin-left: 10px;
+    margin-left: 2%;
 }
 .input .text{
     flex: 0.9;

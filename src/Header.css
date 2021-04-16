@@ -4,7 +4,7 @@
     justify-content: space-between;
     background-color: #822659;
     width: 100%;
-    padding: 5px;
+    padding: 2px;
     border: 1px solid gray;
     overflow-y: none;
 }
@@ -21,7 +21,7 @@
 .header_right{
     flex: 0.3;
     margin-left: auto;
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
     align-items: center;
 }
@@ -47,9 +47,12 @@
 .avatar span{
     position: absolute;
     background-color: #79d70f;
-    top: 37px;
+    top: 47px;
     height: 13px;
-    right: 45px;
+    right: 110px;
     width: 13px;
     border-radius: 60px;
+}
+.header_right .MuiSvgIcon-root{
+    margin-right: auto !important; 
 }
