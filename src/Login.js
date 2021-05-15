@@ -19,7 +19,7 @@ function Login() {
     return (
         <div className="login">
             <div className="container">
-                <img src="https://www.flaticon.com/svg/vstatic/svg/2111/2111615.svg?token=exp=1617903620~hmac=ec5a2967b45329498e526230c72987e2"></img>
+                <img src="https://img.icons8.com/color/452/google-logo.png"></img>
                 <h3>Welcome to The Programming Server</h3>
                 <button onClick={log}>Log in with Google</button>
             </div>

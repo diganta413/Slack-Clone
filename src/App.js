@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       {(!user)?
       (<Login/>):
-      (<>
+      (<div>
       <Header />
       <div className="main_body">
           <Sidebar />
@@ -26,7 +26,7 @@ function App() {
             </Route>
           </Switch>
       </div>
-      </>
+      </div>
       )}
       
     </div>
