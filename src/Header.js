@@ -33,7 +33,7 @@ function Header() {
             <div className="header_right">
                 <HelpOutlineIcon />
                 <div className="avatar">
-                    <Avatar variant="square" className="avatar" src={user?.user?.photoURL}/>
+                    <Avatar variant="square" className="avatar" src={user && user.user.photoURL}/>
                     <span></span>
                 </div>
                 <IconButton onClick={signout} className="sign_out">

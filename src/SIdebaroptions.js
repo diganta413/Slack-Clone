@@ -24,7 +24,7 @@ function SIdebaroptions({ Icon,name,id }) {
             }
             
         }
-        else
+        if(name=="Add Channel")
         {
             const channel = prompt("Enter channel name");
             if(channel)

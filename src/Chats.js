@@ -39,7 +39,7 @@ function Chats() {
         })
         setinput("");
     }
-    console.log(user);
+    console.log(messages);
 
     
     return (
@@ -57,7 +57,7 @@ function Chats() {
             <hr/>
             <div className="chat_body">
                 <div className="messages">
-                    {messages?.map((message) => <Message message={message}/>)}
+                    {messages && messages.map((message) => (<Message message={message}/>))}
                     
                     
                 </div>
